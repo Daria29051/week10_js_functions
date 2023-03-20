@@ -1,0 +1,23 @@
+
+.gallery {
+   display: flex;
+   justify-content: center;
+   align-items: first baseline;
+   gap: 20px;
+}
+
+
+.gallery__img {
+    width: 40%;
+}
+
+
+
+
+.btn-switch {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
