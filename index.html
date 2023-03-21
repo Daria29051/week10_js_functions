@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Галерея с 2-мя картинками -->
+
     <div class="gallery">
       <button
         class="gallery__btn-switch"
@@ -24,6 +26,26 @@
       >
         Next
       </button>
+    </div>
+
+    <!-- Галерея с несколькими картинками -->
+
+    <div class="gallery1">
+      <div class="gallery1__photo">
+        <img src="assets/img/gallery/interior-1.jpg" class="shown" />
+        <img src="assets/img/gallery/interior-2.jpg" />
+        <img src="assets/img/gallery/interior-3.jpg" />
+        <img src="assets/img/gallery/interior-4.jpg" />
+        <img src="assets/img/gallery/interior-5.jpg" />
+      </div>
+      <div class="gallery1__buttons">
+        <button class="gallery1__btn-switch gallery1__btn-switch-prev">
+          Назад
+        </button>
+        <button class="gallery1__btn-switch gallery1__btn-switch-next">
+          Вперед
+        </button>
+      </div>
     </div>
 
     <script src="script.js"></script>
