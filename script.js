@@ -11,7 +11,7 @@ showMessage();
 // Задание со звездочкой (является ли год високосным в григорианском календаре)
 
 const checkYear = (year) => {
-if ((year % 4 === 0) && (year % 100 === 0) && (year % 400 === 0)) {
+if ((year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0)) {
     return('Високосный');
 
 } else {
@@ -19,7 +19,7 @@ if ((year % 4 === 0) && (year % 100 === 0) && (year % 400 === 0)) {
 }
 };
 
-console.log(checkYear(2023));
+console.log(checkYear(2016));
 
 
 
